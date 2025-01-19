@@ -28,7 +28,7 @@ Aplicación web enfocada a la administración de eventos mediante operaciones CR
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/Tonymagnastar/Proyecto_Dialogus.git
+   git clone https://github.com/Tonymagnastar/Proyecto_final.git
 
 ## Ejecución 
 -Importa el esquema de la base de datos en MySQL Workbench o cualquier otro gestor local de bases de datos.
