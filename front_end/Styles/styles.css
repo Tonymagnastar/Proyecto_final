@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+  }
+  
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 10px; /* Ajuste para asegurar que las etiquetas no se desborden */
+  }
+  
+  input, textarea {
+    width: calc(100% - 20px); /* Aseguramos que el ancho sea 100% menos el padding */
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; /* Para asegurarnos de que el padding no afecte el tamaño total */
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #185688;
+  }
+  
+  #responseMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    form {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 8px 16px;
+    }
+  }
+  
